@@ -15,7 +15,7 @@
 Минимальная версия Go — 1.27.1.
 
 ```sh
-go get github.com/Uzer007-admin/granio-xgb@<коммит-или-версия>
+go get github.com/Uzer007-admin/granio-xgb@418fa8a142d85fb7f067f5e625c40c138ac1ed3e
 go test ./...
 ```
 
