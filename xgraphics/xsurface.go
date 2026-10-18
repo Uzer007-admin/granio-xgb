@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/ewmh"
-	"github.com/BurntSushi/xgbutil/icccm"
-	"github.com/BurntSushi/xgbutil/keybind"
-	"github.com/BurntSushi/xgbutil/mousebind"
-	"github.com/BurntSushi/xgbutil/xevent"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgbutil/icccm"
+	"github.com/Uzer007-admin/granio-xgbutil/keybind"
+	"github.com/Uzer007-admin/granio-xgbutil/mousebind"
+	"github.com/Uzer007-admin/granio-xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
 )
 
 /*

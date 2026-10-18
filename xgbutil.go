@@ -6,10 +6,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/xcmisc"
-	"github.com/BurntSushi/xgb/xinerama"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb"
+	"github.com/Uzer007-admin/granio-xgb/xcmisc"
+	"github.com/Uzer007-admin/granio-xgb/xinerama"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 )
 
 // Logger is used through xgbutil when messages need to be emitted to stderr.

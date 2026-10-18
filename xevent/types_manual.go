@@ -3,7 +3,7 @@ package xevent
 import (
 	"fmt"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 )
 
 // ClientMessageEvent embeds the struct by the same name from the xgb library.

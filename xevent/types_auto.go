@@ -11,8 +11,8 @@ package xevent
 import (
 	"fmt"
 
-	"github.com/BurntSushi/xgb/shape"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/shape"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 )
 
 type KeyPressEvent struct {

@@ -13,11 +13,11 @@ package main
 import (
 	"log"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xcursor"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgbutil/xcursor"
+	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
 )
 
 func main() {

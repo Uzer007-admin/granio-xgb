@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/ewmh"
-	"github.com/BurntSushi/xgbutil/icccm"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgbutil/icccm"
+	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
 )
 
 func main() {

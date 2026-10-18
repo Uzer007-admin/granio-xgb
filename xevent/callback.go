@@ -9,9 +9,9 @@ package xevent
 */
 
 import (
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
+	"github.com/Uzer007-admin/granio-xgbutil"
 )
 
 type KeyPressFun func(xu *xgbutil.XUtil, event KeyPressEvent)

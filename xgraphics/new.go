@@ -14,11 +14,11 @@ import (
 	_ "image/png"
 	"os"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/ewmh"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
 )
 
 // NewConvert converts any image satisfying the image.Image interface to an

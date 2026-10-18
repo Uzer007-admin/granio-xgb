@@ -46,11 +46,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/BurntSushi/xgbutil"
-	"github.com/BurntSushi/xgbutil/xevent"
-	"github.com/BurntSushi/xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
 )
 
 // workTime is the amount of time to sleep to simulate "work" in response to
