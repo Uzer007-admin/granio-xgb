@@ -16,9 +16,9 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
-	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xwindow"
 )
 
 // NewConvert converts any image satisfying the image.Image interface to an

@@ -15,9 +15,9 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/xcursor"
-	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xcursor"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xwindow"
 )
 
 func main() {

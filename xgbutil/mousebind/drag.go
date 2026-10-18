@@ -3,8 +3,8 @@ package mousebind
 import (
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xevent"
 )
 
 // Drag is the public interface that will make the appropriate connections

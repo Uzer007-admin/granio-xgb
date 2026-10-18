@@ -14,7 +14,7 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
 )
 
 // Atm is a short alias for Atom in the common case of interning an atom.

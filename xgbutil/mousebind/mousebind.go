@@ -7,8 +7,8 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xevent"
 )
 
 var modifiers []uint16 = []uint16{ // order matters!

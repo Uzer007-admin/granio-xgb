@@ -5,8 +5,8 @@ import "sort"
 import (
 	"github.com/Uzer007-admin/granio-xgb/xinerama"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/xrect"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xrect"
 )
 
 // Alias so we use it as a receiver to satisfy sort.Interface

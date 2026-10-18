@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
-	"github.com/Uzer007-admin/granio-xgbutil/xinerama"
-	"github.com/Uzer007-admin/granio-xgbutil/xrect"
-	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xinerama"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xrect"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xwindow"
 )
 
 func main() {

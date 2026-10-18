@@ -15,13 +15,13 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/gopher"
-	"github.com/Uzer007-admin/granio-xgbutil/keybind"
-	"github.com/Uzer007-admin/granio-xgbutil/mousebind"
-	"github.com/Uzer007-admin/granio-xgbutil/xevent"
-	"github.com/Uzer007-admin/granio-xgbutil/xgraphics"
-	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/gopher"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/keybind"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/mousebind"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xgraphics"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xwindow"
 )
 
 var (

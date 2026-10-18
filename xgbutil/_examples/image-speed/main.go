@@ -1,16 +1,16 @@
-//This demonstration shows drawing entire generated images to an x window
-//and calculating the speed of the generation and the drawing operations
-//It should be noted that redrawing the entire image is inefficient, this demo
-//was made to show me how fast I could draw to the windows with this method.
+// This demonstration shows drawing entire generated images to an x window
+// and calculating the speed of the generation and the drawing operations
+// It should be noted that redrawing the entire image is inefficient, this demo
+// was made to show me how fast I could draw to the windows with this method.
 package main
 
 import (
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/keybind"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xgraphics"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xwindow"
 	"github.com/Uzer007-admin/granio-xgb/xproto"
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/keybind"
-	"github.com/Uzer007-admin/granio-xgbutil/xevent"
-	"github.com/Uzer007-admin/granio-xgbutil/xgraphics"
-	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
 	"image"
 	"log"
 	"time"

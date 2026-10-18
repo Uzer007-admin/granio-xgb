@@ -8,37 +8,37 @@ that acts as a dispatcher to event handlers set up with the xevent, keybind and
 mousebind packages. At the same time, the event queue is exposed and can be
 modified using xevent.Peek and xevent.DequeueAt.
 
-Sub-packages
+# Sub-packages
 
 The xgbutil package is considerably small, and only contains some type
 definitions and the initial setup for an X connection. Much of the
 functionality of xgbutil comes from its sub-packages. Each sub-package is
 appropriately documented.
 
-Installation
+# Installation
 
 xgbutil is go-gettable:
 
-	go get github.com/Uzer007-admin/granio-xgbutil
+	go get github.com/Uzer007-admin/granio-xgb/xgbutil
 
-Dependencies
+# Dependencies
 
 XGB is the main dependency, and is required for all packages inside xgbutil.
 
 graphics-go and freetype-go are also required if using the xgraphics package.
 
-Quick Example
+# Quick Example
 
 A quick example to demonstrate that xgbutil is working correctly:
 
-	go get github.com/Uzer007-admin/granio-xgbutil/examples/window-name-sizes
+	go get github.com/Uzer007-admin/granio-xgb/xgbutil/examples/window-name-sizes
 	GO/PATH/bin/window-name-sizes
 
 The output will be a list of names of all top-level windows and their geometry
 including window manager decorations. (Assuming your window manager supports
 some basic EWMH properties.)
 
-Examples
+# Examples
 
 The examples directory contains a sizable number of examples demonstrating
 common tasks with X. They are intended to demonstrate a single thing each,
@@ -53,7 +53,7 @@ useful reference material.
 
 Wingo project page: https://github.com/BurntSushi/wingo
 
-Thread Safety
+# Thread Safety
 
 While I am fairly confident that XGB is thread safe, I am only somewhat
 confident that xgbutil is thread safe. It simply has not been tested enough for

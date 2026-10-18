@@ -10,9 +10,9 @@ import (
 	"github.com/BurntSushi/graphics-go/graphics"
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
-	"github.com/Uzer007-admin/granio-xgbutil/icccm"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/icccm"
 )
 
 /*

@@ -7,9 +7,9 @@ package main
 import (
 	"log"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/mousebind"
-	"github.com/Uzer007-admin/granio-xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/mousebind"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xevent"
 )
 
 func main() {

@@ -13,7 +13,7 @@ on an on-demand basis, but don't count on it.
 Try not to bash your head against your desk too hard:
 http://www.opengroup.org/openmotif/hardcopydocs.html
 
-Example
+# Example
 
 To test if a window wants decorations or not:
 
@@ -23,7 +23,6 @@ To test if a window wants decorations or not:
 	} else {
 		log.Println("Decorations? ", motif.Decor(mh))
 	}
-
 */
 package motif
 
@@ -32,8 +31,8 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/xprop"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xprop"
 )
 
 const (

@@ -584,12 +584,13 @@ func init() {
 // Note that to *create* a Union, you should *never* create
 // this struct directly (unless you know what you're doing).
 // Instead use one of the following constructors for 'NotifyDataUnion':
-//     NotifyDataUnionCcNew(Cc CrtcChange) NotifyDataUnion
-//     NotifyDataUnionOcNew(Oc OutputChange) NotifyDataUnion
-//     NotifyDataUnionOpNew(Op OutputProperty) NotifyDataUnion
-//     NotifyDataUnionPcNew(Pc ProviderChange) NotifyDataUnion
-//     NotifyDataUnionPpNew(Pp ProviderProperty) NotifyDataUnion
-//     NotifyDataUnionRcNew(Rc ResourceChange) NotifyDataUnion
+//
+//	NotifyDataUnionCcNew(Cc CrtcChange) NotifyDataUnion
+//	NotifyDataUnionOcNew(Oc OutputChange) NotifyDataUnion
+//	NotifyDataUnionOpNew(Op OutputProperty) NotifyDataUnion
+//	NotifyDataUnionPcNew(Pc ProviderChange) NotifyDataUnion
+//	NotifyDataUnionPpNew(Pp ProviderProperty) NotifyDataUnion
+//	NotifyDataUnionRcNew(Rc ResourceChange) NotifyDataUnion
 type NotifyDataUnion struct {
 	Cc CrtcChange
 	Oc OutputChange

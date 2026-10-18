@@ -8,9 +8,9 @@ the currently running window manager.
 import (
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/ewmh"
-	"github.com/Uzer007-admin/granio-xgbutil/xrect"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/ewmh"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xrect"
 )
 
 // DecorGeometry retrieves the client's width and height including decorations.

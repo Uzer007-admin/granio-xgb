@@ -6,7 +6,7 @@ import (
 	"github.com/Uzer007-admin/granio-xgb"
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
 )
 
 // GetProperty abstracts the messiness of calling xgb.GetProperty.

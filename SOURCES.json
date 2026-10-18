@@ -1,0 +1,18 @@
+{
+  "base_source": "https://github.com/fyne-io/xgb",
+  "sources": [
+    {
+      "source": "https://github.com/fyne-io/xgbutil",
+      "prepared_commit": "5c1edd265a02b49426fddbd423b8246d983143fc",
+      "path": "xgbutil",
+      "history_merged": true,
+      "previous_repository": "https://github.com/Uzer007-admin/granio-xgbutil",
+      "previous_repository_deleted": false,
+      "module": "github.com/Uzer007-admin/granio-xgb/xgbutil",
+      "separate_module": false,
+      "license_files": [
+        "COPYING"
+      ]
+    }
+  ]
+}

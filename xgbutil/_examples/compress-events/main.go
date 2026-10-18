@@ -48,9 +48,9 @@ import (
 
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
-	"github.com/Uzer007-admin/granio-xgbutil/xevent"
-	"github.com/Uzer007-admin/granio-xgbutil/xwindow"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xevent"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil/xwindow"
 )
 
 // workTime is the amount of time to sleep to simulate "work" in response to

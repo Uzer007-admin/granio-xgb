@@ -3,7 +3,7 @@ package xcursor
 import (
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
 )
 
 // CreateCursor sets some default colors for nice and easy cursor creation.

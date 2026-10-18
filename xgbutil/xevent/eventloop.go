@@ -14,7 +14,7 @@ import (
 	"github.com/Uzer007-admin/granio-xgb/shape"
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
 )
 
 // Read reads one or more events and queues them in XUtil.

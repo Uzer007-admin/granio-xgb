@@ -12,7 +12,7 @@ would become cluttered with functions that should not be used.
 import (
 	"github.com/Uzer007-admin/granio-xgb/xproto"
 
-	"github.com/Uzer007-admin/granio-xgbutil"
+	"github.com/Uzer007-admin/granio-xgb/xgbutil"
 )
 
 // attachKeyBindCallback associates an (event, window, mods, keycode)
