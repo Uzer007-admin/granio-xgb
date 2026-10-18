@@ -1,3 +1,5 @@
+//go:build x11_integration
+
 package xproto
 
 /*
@@ -26,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BurntSushi/xgb"
+	"github.com/Uzer007-admin/granio-xgb"
 )
 
 // The X connection used throughout testing.

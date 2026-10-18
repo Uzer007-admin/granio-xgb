@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/BurntSushi/xgb"
-	"github.com/BurntSushi/xgb/randr"
-	"github.com/BurntSushi/xgb/xproto"
+	"github.com/Uzer007-admin/granio-xgb"
+	"github.com/Uzer007-admin/granio-xgb/randr"
+	"github.com/Uzer007-admin/granio-xgb/xproto"
 )
 
 func main() {
@@ -56,7 +56,7 @@ func main() {
 		}
 	}
 
-	fmt.Println("\n")
+	fmt.Print("\n\n")
 
 	// Iterate through all of the crtcs and show some of their info.
 	for _, crtc := range resources.Crtcs {

@@ -23,8 +23,8 @@ accompanying documentation can be found in examples/create-window.
 
 	import (
 		"fmt"
-		"github.com/BurntSushi/xgb"
-		"github.com/BurntSushi/xgb/xproto"
+		"github.com/Uzer007-admin/granio-xgb"
+		"github.com/Uzer007-admin/granio-xgb/xproto"
 	)
 
 	func main() {
@@ -74,8 +74,8 @@ can be found in examples/xinerama.
 	import (
 		"fmt"
 		"log"
-		"github.com/BurntSushi/xgb"
-		"github.com/BurntSushi/xgb/xinerama"
+		"github.com/Uzer007-admin/granio-xgb"
+		"github.com/Uzer007-admin/granio-xgb/xinerama"
 	)
 
 	func main() {
